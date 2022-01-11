@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tourguideapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".ActivityFoodsMomo"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityFoodsChickenPokoras"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityFoodsLassi"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityFoodsBiryani"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityFoodsPostorBora"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityFoodsPera"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityFoodsMechaSandesh"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityHistoricalMrinmoyeeTemple"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityHistoricalDalmadalKaman"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityHistoricalLaljiTemple"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityHistoricalRadheShyamTemple"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityHistoricalMadanMohanTemple"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityHistoricalJoreBanglaTemple"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityHistoricalPanchaRatnaShyamRaiTemple"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityShoppingPlacesMallabhumSilkCentre"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityShoppingPlacesNewAnuvab"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityShoppingPlacesFatelalOswal"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityShoppingPlacesAnuska"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityShoppingPlacesAnuvab"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityShoppingPlacesKaniska"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityShoppingPlacesChandanDressHouse"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityShoppingPlacesKolkataTrends"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityShoppingPlacesJDBazaar"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityHotelsAnnapurna"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityHotelsRaj"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityHotelsPark"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityHotelsSneha"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityHotelsLaxmiPark"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityHotelsSree"
+            android:label="Details " />
+        <activity
+            android:name=".ActivityHotelsShibkali"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityHotelsSwapnil"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityHotelsMonalisa"
+            android:label="Details" />
+        <activity
+            android:name=".ActivityHistoricalRasMancha"
+            android:label="Details" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
